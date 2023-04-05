@@ -1,0 +1,19 @@
+.link {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: tomato;
+}
+
+.active {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
