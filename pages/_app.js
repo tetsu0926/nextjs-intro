@@ -1,27 +1,12 @@
+import Layout from "./componets/Layout";
 import NavBar from "./componets/NavBar";
 
 export default function App({ Component, pageProps }) {
     console.log("pageProps", pageProps);
 
     return (
-        <div>
-            <NavBar />
+        <Layout>
             <Component {...pageProps} />
-            <span>_app....</span>
-
-            <style jsx global>
-                {`
-                    span {
-                        font-weight: bold;
-                    }
-                    a {
-                        text-decoration: none;
-                        color: brown;
-                        font-weight: bold;
-                        font-size: 20px;
-                    }
-                `}
-            </style>
-        </div>
+        </Layout>
     );
 }
