@@ -7,6 +7,8 @@ export default function Home() {
     useEffect(() => {});
      const test = 1;
 
+    const test = "test";
+
     return (
         <div>
             <h1>hello1000_vscode</h1>
