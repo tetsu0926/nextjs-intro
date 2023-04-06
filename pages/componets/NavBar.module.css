@@ -12,6 +12,12 @@
     background-color: tomato;
 }
 
+.link {
+    color: red;
+    width: 200px;
+    padding: 10px 10px;
+}
+
 .active {
     color: white;
     font-size: 18px;
